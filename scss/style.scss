@@ -29,6 +29,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html {
+  height: 100%;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -36,6 +39,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  height: 100%;
   * {
     box-sizing: border-box;
   }
@@ -87,7 +91,7 @@ body {
   flex: 1 100%;
   flex-wrap: wrap;
   background: fade(#ebebeb, 10%);
-  height:100vh;
+  height:100%;
   overflow-y: hidden;
  
   
