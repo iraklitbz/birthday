@@ -264,11 +264,11 @@ body strong {
 
 .text {
   font-family: Sacramento, cursive;
-  font-size: 40px;
+  font-size: 35px;
   padding: 20px;
   text-align: center;
   width: 70vw;
-  margin-bottom: 20vw;
+  margin-bottom: 7vw;
   border-radius: 1vw;
   width: 100%;
   z-index: 3;
@@ -586,7 +586,7 @@ button.btn:active::before {
 }
 
 .pic {
-  width: 60%;
+  width: 55%;
   transform: rotate(3deg);
 }
 .pic img {
